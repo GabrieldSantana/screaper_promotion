@@ -8,8 +8,6 @@ async function main() {
     console.log('Iniciando scraping do Mercado Livre...');
     const promotions = await scrapeMercadoLivre(url);
 
-    console.log(promotions, "Teste");
-
     if (promotions.length > 0) {
         console.log('Promoções coletadas:', promotions);
         await sendEmail(promotions);
