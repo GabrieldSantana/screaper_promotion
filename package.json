@@ -1,0 +1,19 @@
+{
+  "name": "mercado-livre-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper para promoções do Mercado Livre com envio de e-mail",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "Gabriel de Santana",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "mercado-livre-scraper": "file:",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.13"
+  }
+}
